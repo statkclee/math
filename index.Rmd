@@ -1,6 +1,8 @@
 --- 
-title: "A Minimal Book Example"
-author: "Yihui Xie"
+title: "한국인을 위한 수학"
+subtitle: "가자! 미적분학과 선형대수"
+author:
+    name: "[Tidyverse Korea](https://www.facebook.com/groups/tidyverse/)"
 date: "`r Sys.Date()`"
 site: bookdown::bookdown_site
 documentclass: book
@@ -10,7 +12,18 @@ link-citations: yes
 description: "This is a minimal example of using the bookdown package to write a book. The output format for this example is bookdown::gitbook."
 ---
 
-# Prerequisites
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-59802572-23"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-59802572-23');
+</script>
+
+
+# Prerequisites {-#prerequisite}
 
 
 ```{r include=FALSE}
