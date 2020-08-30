@@ -1,4 +1,6 @@
 bookdown::gitbook:
+  includes:
+    in_header: GA_script.html
   css: style.css
   config:
     toc:
